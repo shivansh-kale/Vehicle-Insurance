@@ -30,7 +30,7 @@ REGION_NAME = "us-east-1"
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
 DATA_INGESTION_COLLECTION_NAME: str = "Proj1-Data"
-DATA_INGESTION_DIR_NAME: str = "data_ingestion"
+DATA_INGESTION_DIR_NAME: str = "data_ingestion"             #
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.25
@@ -67,7 +67,7 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 MODEL Evaluation related constants
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "my-model-mlopsproj"
+MODEL_BUCKET_NAME = "my-mlops-project01"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 
