@@ -13,6 +13,8 @@ from src.constants import APP_HOST, APP_PORT
 from src.pipline.prediction_pipeline import VehicleData, VehicleDataClassifier
 from src.pipline.training_pipeline import TrainPipeline
 
+# Simple flask app
+
 # Initialize FastAPI application
 app = FastAPI()
 
@@ -128,7 +130,7 @@ async def predictRouteClient(request: Request):
         # Make a prediction and retrieve the result
         value = model_predictor.predict(dataframe=vehicle_df)[0]
 
-        # Interpret the prediction result as 'Response-Yes' or 'Response-No'
+        # Interpret the prediction result as 'Response-Yes' or  'Response-No'
         status = "Response-Yes" if value == 1 else "Response-No"
 
         # Render the same HTML page with the prediction result
