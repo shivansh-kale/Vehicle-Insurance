@@ -30,14 +30,14 @@ without manually changing the Python path.
 
 ### mongo DB
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 
 ### logger  --> __init__.py
-![alt text](<Screenshot 2026-07-05 173627.png>)
+![alt text](<images/Screenshot 2026-07-05 173627.png>)
 
 
 

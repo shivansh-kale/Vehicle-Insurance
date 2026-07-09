@@ -10,6 +10,8 @@ from botocore.exceptions import ClientError
 from pandas import DataFrame,read_csv
 import pickle
 
+#An S3 object is a file stored inside an Amazon S3 bucket. Each object contains the file's data, a unique key (its path/name), and metadata such as size and last modified time.
+
 
 class SimpleStorageService:
     """
