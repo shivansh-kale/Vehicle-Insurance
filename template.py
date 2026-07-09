@@ -50,7 +50,7 @@ for filepath in list_of_files:
     filedir, filename = os.path.split(filepath)
     if filedir != "":
         os.makedirs(filedir, exist_ok=True)
-    if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
+    if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):   #if the file doesn't exist or if it empty then create one 
         with open(filepath, "w") as f:
             pass
     else:
