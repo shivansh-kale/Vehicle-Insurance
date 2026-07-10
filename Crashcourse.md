@@ -45,6 +45,23 @@ TOML is becoming the standard for Python packaging metadata.
 When you run pip install -r requirements.txt, it ensures that all dependencies are installed. The pyproject.toml file can reference 
 it (as we did) so that package dependencies are automatically pulled from there.
 
+### setup.py
+ is used to package and install a Python project(src) by defining its metadata and telling Python which packages should be included during installation.
+**Without** setup.py, Python doesn't know that src is a package that can be installed.
+
+**With** setup.py, you can install your own project:
+```python
+pip install -e .
+```
+Then anywhere in the project you can do:
+
+``` python
+from src.utils import helper
+from src.model import train
+```
+without manually changing the Python path.
+
+---
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
