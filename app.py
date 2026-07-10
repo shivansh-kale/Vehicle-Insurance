@@ -74,14 +74,28 @@ class DataForm:
         self.Vehicle_Age_gt_2_Years = form.get("Vehicle_Age_gt_2_Years")
         self.Vehicle_Damage_Yes = form.get("Vehicle_Damage_Yes")
 
+
+"""
 # Route to render the main page with the form
 @app.get("/", tags=["authentication"])
 async def index(request: Request):
-    """
-    Renders the main HTML form page for vehicle data input.
-    """
     return templates.TemplateResponse(
-            "vehicledata.html",{"request": request, "context": "Rendering"})
+        request=request,
+        name="vehicledata.html",
+        context={"context": "Rendering"},
+    )
+"""
+@app.get("/")
+async def index(request: Request):
+    return templates.TemplateResponse(
+        request=request,
+        name="vehicledata.html",
+        context={}
+    )
+
+
+
+
 
 # Route to trigger the model training process
 @app.get("/train")
@@ -135,9 +149,10 @@ async def predictRouteClient(request: Request):
 
         # Render the same HTML page with the prediction result
         return templates.TemplateResponse(
-            "vehicledata.html",
-            {"request": request, "context": status},
-        )
+            request=request,
+            name="vehicledata.html",
+            context={"context": status},
+            )
         
     except Exception as e:
         return {"status": False, "error": f"{e}"}

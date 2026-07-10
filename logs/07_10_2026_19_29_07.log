@@ -1,0 +1,321 @@
+[ 2026-07-10 19:29:22,957 ] asyncio - DEBUG - Using proactor: IocpProactor
+[ 2026-07-10 19:29:36,022 ] root - INFO - Entered get_usvisa_data_as_dict method as VehicleData class
+[ 2026-07-10 19:29:36,023 ] root - INFO - Created vehicle data dict
+[ 2026-07-10 19:29:36,024 ] root - INFO - Exited get_vehicle_data_as_dict method as VehicleData class
+[ 2026-07-10 19:29:36,025 ] root - INFO - Entered predict method of VehicleDataClassifier class
+[ 2026-07-10 19:29:36,026 ] botocore.hooks - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+[ 2026-07-10 19:29:36,028 ] botocore.hooks - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+[ 2026-07-10 19:29:36,030 ] botocore.hooks - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+[ 2026-07-10 19:29:36,030 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+[ 2026-07-10 19:29:36,030 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+[ 2026-07-10 19:29:36,031 ] botocore.hooks - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+[ 2026-07-10 19:29:36,031 ] botocore.hooks - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+[ 2026-07-10 19:29:36,033 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+[ 2026-07-10 19:29:36,033 ] botocore.hooks - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+[ 2026-07-10 19:29:36,033 ] botocore.hooks - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+[ 2026-07-10 19:29:36,034 ] botocore.hooks - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+[ 2026-07-10 19:29:36,139 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+[ 2026-07-10 19:29:36,167 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\endpoints.json
+[ 2026-07-10 19:29:36,203 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\sdk-default-configuration.json
+[ 2026-07-10 19:29:36,204 ] botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000203281FFEC0>
+[ 2026-07-10 19:29:36,319 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+[ 2026-07-10 19:29:36,355 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+[ 2026-07-10 19:29:36,498 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+[ 2026-07-10 19:29:36,518 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\partitions.json
+[ 2026-07-10 19:29:36,527 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002032816E7A0>
+[ 2026-07-10 19:29:36,529 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D080>
+[ 2026-07-10 19:29:36,531 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002032816E520>
+[ 2026-07-10 19:29:36,531 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_service
+[ 2026-07-10 19:29:36,531 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_global
+[ 2026-07-10 19:29:36,531 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_service
+[ 2026-07-10 19:29:36,531 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_global
+[ 2026-07-10 19:29:36,531 ] botocore.configprovider - DEBUG - No configured endpoint found.
+[ 2026-07-10 19:29:36,532 ] botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+[ 2026-07-10 19:29:36,565 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\_retry.json
+[ 2026-07-10 19:29:36,566 ] botocore.client - DEBUG - Registering retry handlers for service: s3
+[ 2026-07-10 19:29:36,566 ] botocore.utils - DEBUG - Registering S3 region redirector handler
+[ 2026-07-10 19:29:36,566 ] botocore.utils - DEBUG - Registering S3Express Identity Resolver
+[ 2026-07-10 19:29:36,566 ] boto3.resources.factory - DEBUG - Loading s3:s3
+[ 2026-07-10 19:29:36,567 ] botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000203281FFEC0>
+[ 2026-07-10 19:29:36,569 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002032816E7A0>
+[ 2026-07-10 19:29:36,569 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D080>
+[ 2026-07-10 19:29:36,569 ] botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002032816E520>
+[ 2026-07-10 19:29:36,569 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_service
+[ 2026-07-10 19:29:36,569 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: environment_global
+[ 2026-07-10 19:29:36,569 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_service
+[ 2026-07-10 19:29:36,569 ] botocore.configprovider - DEBUG - Looking for endpoint for s3 via: config_global
+[ 2026-07-10 19:29:36,569 ] botocore.configprovider - DEBUG - No configured endpoint found.
+[ 2026-07-10 19:29:36,571 ] botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+[ 2026-07-10 19:29:36,574 ] botocore.client - DEBUG - Registering retry handlers for service: s3
+[ 2026-07-10 19:29:36,574 ] botocore.utils - DEBUG - Registering S3 region redirector handler
+[ 2026-07-10 19:29:36,574 ] botocore.utils - DEBUG - Registering S3Express Identity Resolver
+[ 2026-07-10 19:29:36,581 ] root - INFO - Entered the get_file_object method of SimpleStorageService class
+[ 2026-07-10 19:29:36,617 ] root - INFO - Entered the get_bucket method of SimpleStorageService class
+[ 2026-07-10 19:29:36,617 ] boto3.resources.factory - DEBUG - Loading s3:Bucket
+[ 2026-07-10 19:29:36,618 ] boto3.resources.model - DEBUG - Renaming Bucket attribute name
+[ 2026-07-10 19:29:36,618 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D8A0>
+[ 2026-07-10 19:29:36,619 ] root - INFO - Exited the get_bucket method of SimpleStorageService class
+[ 2026-07-10 19:29:36,731 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\s3\2006-03-01\paginators-1.json
+[ 2026-07-10 19:29:36,745 ] botocore.loaders - DEBUG - Loading JSON file: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\botocore\data\s3\2006-03-01\paginators-1.sdk-extras.json
+[ 2026-07-10 19:29:36,746 ] boto3.resources.collection - DEBUG - Calling paginated s3:list_objects with {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl'}
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x0000020328207600>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x0000020328206160>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000203282305E0>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x0000020328205F80>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function _handle_request_validation_mode_member at 0x0000020328230D60>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000203282307C0>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:36,746 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'my-mlops-project01', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Prefix': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-10 19:29:36,746 ] botocore.regions - DEBUG - Endpoint provider result: https://my-mlops-project01.s3.amazonaws.com
+[ 2026-07-10 19:29:36,746 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-10 19:29:36,746 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x0000020328206520>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x0000020328205260>
+[ 2026-07-10 19:29:36,746 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x0000020328207A60>
+[ 2026-07-10 19:29:36,746 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'prefix': 'model.pkl', 'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,D,C,Z cfg/retry-mode#legacy Botocore/1.43.41 Resource'}, 'body': b'', 'auth_path': '/my-mlops-project01/', 'url': 'https://my-mlops-project01.s3.amazonaws.com/?prefix=model.pkl&encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000203747AA390>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'my-mlops-project01', 'params': {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000203747A9FD0>>
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x0000020328205C60>
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x0000020328230720>
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function _set_extra_headers_for_unsigned_request at 0x0000020328230E00>
+[ 2026-07-10 19:29:36,748 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:29:36,749 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-10 19:29:36,749 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/
+encoding-type=url&prefix=model.pkl
+host:my-mlops-project01.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260710T135936Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-10 19:29:36,749 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260710T135936Z
+20260710/us-east-1/s3/aws4_request
+83e69e1b535d770af04df2721f9ed521bf975112d0b098897d07a87eb4377115
+[ 2026-07-10 19:29:36,749 ] botocore.auth - DEBUG - Signature:
+9f0fee9357cbcc9bae52b889edc912ed9bd6076b334d3ea791bd3d94f292702c
+[ 2026-07-10 19:29:36,749 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000203747AAF60>>
+[ 2026-07-10 19:29:36,749 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x0000020328230540>
+[ 2026-07-10 19:29:36,749 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://my-mlops-project01.s3.amazonaws.com/?prefix=model.pkl&encoding-type=url, headers={'User-Agent': b'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,D,C,Z cfg/retry-mode#legacy Botocore/1.43.41 Resource', 'X-Amz-Date': b'20260710T135936Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA4RODFJFZ67V2ITUK/20260710/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=9f0fee9357cbcc9bae52b889edc912ed9bd6076b334d3ea791bd3d94f292702c', 'amz-sdk-invocation-id': b'88c07324-7134-48ad-86d5-881866220faf', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-10 19:29:36,749 ] botocore.httpsession - DEBUG - Certificate path: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-10 19:29:36,749 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): my-mlops-project01.s3.amazonaws.com:443
+[ 2026-07-10 19:29:38,041 ] urllib3.connectionpool - DEBUG - https://my-mlops-project01.s3.amazonaws.com:443 "GET /?prefix=model.pkl&encoding-type=url HTTP/1.1" 200 None
+[ 2026-07-10 19:29:38,042 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function _handle_200_error at 0x0000020328230AE0>
+[ 2026-07-10 19:29:38,042 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function handle_expires_header at 0x0000020328230900>
+[ 2026-07-10 19:29:38,043 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'TuJbxwlaIGv4suwrTu3iRQNyUWirZ/61nG89aRP6XhOFWy4LlqroKEmf8aY/iY81jVRaBlIBSDo=', 'x-amz-request-id': 'ZNJ44T3Z04YZ0K33', 'Date': 'Fri, 10 Jul 2026 13:59:39 GMT', 'x-amz-bucket-region': 'us-east-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+[ 2026-07-10 19:29:38,043 ] botocore.parsers - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>my-mlops-project01</Name><Prefix>model.pkl</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>model.pkl</Key><LastModified>2026-07-09T19:08:52.000Z</LastModified><ETag>&quot;34b8ad8dc2f203598c5d744e97412b1b-2&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>COMPOSITE</ChecksumType><Size>9665501</Size><Owner><ID>76edd3ab0bb814daa9dfdb954a3e83584fd10e715e232b885fbbdc7224833e74</ID></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>'
+[ 2026-07-10 19:29:38,044 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <function _update_status_code at 0x0000020328230CC0>
+[ 2026-07-10 19:29:38,044 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x00000203747EBCB0>
+[ 2026-07-10 19:29:38,044 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-10 19:29:38,044 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:38,045 ] botocore.hooks - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x00000203282076A0>
+[ 2026-07-10 19:29:38,045 ] boto3.resources.factory - DEBUG - Loading s3:ObjectSummary
+[ 2026-07-10 19:29:38,045 ] boto3.resources.model - DEBUG - Renaming ObjectSummary attribute key
+[ 2026-07-10 19:29:38,046 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.ObjectSummary: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D9E0>
+[ 2026-07-10 19:29:38,046 ] root - INFO - Exited the get_file_object method of SimpleStorageService class
+[ 2026-07-10 19:29:38,047 ] boto3.resources.action - DEBUG - Calling s3:get_object with {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl'}
+[ 2026-07-10 19:29:38,047 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x0000020328206200>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x0000020328206160>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000203282305E0>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x0000020328205F80>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x0000020328230D60>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000203282307C0>
+[ 2026-07-10 19:29:38,048 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:38,048 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'my-mlops-project01', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-10 19:29:38,049 ] botocore.regions - DEBUG - Endpoint provider result: https://my-mlops-project01.s3.amazonaws.com
+[ 2026-07-10 19:29:38,049 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-10 19:29:38,049 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-10 19:29:38,049 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x0000020328206520>
+[ 2026-07-10 19:29:38,049 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:29:38,049 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x0000020328205260>
+[ 2026-07-10 19:29:38,049 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x0000020328207A60>
+[ 2026-07-10 19:29:38,050 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/model.pkl', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,Z,D cfg/retry-mode#legacy Botocore/1.43.41 Resource'}, 'body': b'', 'auth_path': '/my-mlops-project01/model.pkl', 'url': 'https://my-mlops-project01.s3.amazonaws.com/model.pkl', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000203747AA390>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'my-mlops-project01', 'params': {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256', 'sha512']}}}
+[ 2026-07-10 19:29:38,050 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000203747A9FD0>>
+[ 2026-07-10 19:29:38,050 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:29:38,051 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x0000020328205C60>
+[ 2026-07-10 19:29:38,051 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x0000020328230720>
+[ 2026-07-10 19:29:38,051 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x0000020328230E00>
+[ 2026-07-10 19:29:38,051 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:29:38,052 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-10 19:29:38,052 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/model.pkl
+
+host:my-mlops-project01.s3.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260710T135938Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-10 19:29:38,052 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260710T135938Z
+20260710/us-east-1/s3/aws4_request
+816f928ce1dbb275e64bf8d020ca657c7a12912cfee6759d41cc5490f467094d
+[ 2026-07-10 19:29:38,052 ] botocore.auth - DEBUG - Signature:
+0f554ab0fab33a8dba775e70e90b09ba4da25623a8163f84d1123129f3728a2a
+[ 2026-07-10 19:29:38,052 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000203747AAF60>>
+[ 2026-07-10 19:29:38,052 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x0000020328230540>
+[ 2026-07-10 19:29:38,053 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://my-mlops-project01.s3.amazonaws.com/model.pkl, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,Z,D cfg/retry-mode#legacy Botocore/1.43.41 Resource', 'X-Amz-Date': b'20260710T135938Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA4RODFJFZ67V2ITUK/20260710/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=0f554ab0fab33a8dba775e70e90b09ba4da25623a8163f84d1123129f3728a2a', 'amz-sdk-invocation-id': b'92f00588-dd0b-434c-8d18-87f88a03610e', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-10 19:29:38,054 ] botocore.httpsession - DEBUG - Certificate path: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-10 19:29:38,490 ] urllib3.connectionpool - DEBUG - https://my-mlops-project01.s3.amazonaws.com:443 "GET /model.pkl HTTP/1.1" 200 9665501
+[ 2026-07-10 19:29:38,491 ] botocore.httpchecksum - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256', 'sha512'].
+[ 2026-07-10 19:29:38,491 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x0000020328230AE0>
+[ 2026-07-10 19:29:38,491 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x0000020328230900>
+[ 2026-07-10 19:29:38,491 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'gMCEEjPOG6XE/F3zbRnITLd65pnZYZvYySNBx1jDM+ANlseaE9IF8Ia6+kWnO5qXRigD1ExUBik=', 'x-amz-request-id': 'ZNJ664F5KZMQZTMJ', 'Date': 'Fri, 10 Jul 2026 13:59:39 GMT', 'Last-Modified': 'Thu, 09 Jul 2026 19:08:52 GMT', 'ETag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'x-amz-checksum-crc32': 'RkjX/w==-2', 'x-amz-checksum-type': 'COMPOSITE', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '9665501', 'Server': 'AmazonS3'}
+[ 2026-07-10 19:29:38,491 ] botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x00000203748A4B20>
+[ 2026-07-10 19:29:38,491 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x0000020328230CC0>
+[ 2026-07-10 19:29:38,491 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000203747EBCB0>
+[ 2026-07-10 19:29:38,491 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-10 19:29:38,491 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:29:38,491 ] boto3.resources.action - DEBUG - Response: {'ResponseMetadata': {'RequestId': 'ZNJ664F5KZMQZTMJ', 'HostId': 'gMCEEjPOG6XE/F3zbRnITLd65pnZYZvYySNBx1jDM+ANlseaE9IF8Ia6+kWnO5qXRigD1ExUBik=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'gMCEEjPOG6XE/F3zbRnITLd65pnZYZvYySNBx1jDM+ANlseaE9IF8Ia6+kWnO5qXRigD1ExUBik=', 'x-amz-request-id': 'ZNJ664F5KZMQZTMJ', 'date': 'Fri, 10 Jul 2026 13:59:39 GMT', 'last-modified': 'Thu, 09 Jul 2026 19:08:52 GMT', 'etag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'x-amz-checksum-crc32': 'RkjX/w==-2', 'x-amz-checksum-type': 'COMPOSITE', 'x-amz-server-side-encryption': 'AES256', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'content-length': '9665501', 'server': 'AmazonS3'}, 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2026, 7, 9, 19, 8, 52, tzinfo=tzutc()), 'ContentLength': 9665501, 'ETag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'ChecksumCRC32': 'RkjX/w==-2', 'ChecksumType': 'COMPOSITE', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}, 'Body': <botocore.response.StreamingBody object at 0x00000203748A4B20>}
+[ 2026-07-10 19:29:43,401 ] root - INFO - Production model loaded from S3 bucket.
+[ 2026-07-10 19:29:43,402 ] root - INFO - Starting prediction process.
+[ 2026-07-10 19:29:43,474 ] root - INFO - Using the trained model to get predictions
+[ 2026-07-10 19:30:33,713 ] root - INFO - Entered get_usvisa_data_as_dict method as VehicleData class
+[ 2026-07-10 19:30:33,721 ] root - INFO - Created vehicle data dict
+[ 2026-07-10 19:30:33,721 ] root - INFO - Exited get_vehicle_data_as_dict method as VehicleData class
+[ 2026-07-10 19:30:33,723 ] root - INFO - Entered predict method of VehicleDataClassifier class
+[ 2026-07-10 19:30:33,724 ] root - INFO - Entered the get_file_object method of SimpleStorageService class
+[ 2026-07-10 19:30:33,724 ] root - INFO - Entered the get_bucket method of SimpleStorageService class
+[ 2026-07-10 19:30:33,724 ] boto3.resources.factory - DEBUG - Loading s3:Bucket
+[ 2026-07-10 19:30:33,724 ] boto3.resources.model - DEBUG - Renaming Bucket attribute name
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D8A0>
+[ 2026-07-10 19:30:33,725 ] root - INFO - Exited the get_bucket method of SimpleStorageService class
+[ 2026-07-10 19:30:33,725 ] boto3.resources.collection - DEBUG - Calling paginated s3:list_objects with {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl'}
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x0000020328207600>
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x0000020328206160>
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000203282305E0>
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:30:33,725 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x0000020328205F80>
+[ 2026-07-10 19:30:33,756 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function _handle_request_validation_mode_member at 0x0000020328230D60>
+[ 2026-07-10 19:30:33,756 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000203282307C0>
+[ 2026-07-10 19:30:33,756 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:33,756 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'my-mlops-project01', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Prefix': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-10 19:30:33,756 ] botocore.regions - DEBUG - Endpoint provider result: https://my-mlops-project01.s3.amazonaws.com
+[ 2026-07-10 19:30:33,757 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-10 19:30:33,757 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-10 19:30:33,757 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x0000020328206520>
+[ 2026-07-10 19:30:33,757 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:30:33,757 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x0000020328205260>
+[ 2026-07-10 19:30:33,757 ] botocore.hooks - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x0000020328207A60>
+[ 2026-07-10 19:30:33,757 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'prefix': 'model.pkl', 'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,D,C,Z cfg/retry-mode#legacy Botocore/1.43.41 Resource'}, 'body': b'', 'auth_path': '/my-mlops-project01/', 'url': 'https://my-mlops-project01.s3.amazonaws.com/?prefix=model.pkl&encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000203747AA390>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'my-mlops-project01', 'params': {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'my-mlops-project01', 'Prefix': 'model.pkl'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000203747A9FD0>>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x0000020328205C60>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x0000020328230720>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <function _set_extra_headers_for_unsigned_request at 0x0000020328230E00>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:30:33,758 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-10 19:30:33,758 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/
+encoding-type=url&prefix=model.pkl
+host:my-mlops-project01.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260710T140033Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-10 19:30:33,758 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260710T140033Z
+20260710/us-east-1/s3/aws4_request
+37ce20c54d7b91fe79cc97e6a9bf99d7728bcfea8e812d31a0f3c0b5daca73b9
+[ 2026-07-10 19:30:33,758 ] botocore.auth - DEBUG - Signature:
+28882a450a34e676ba97da6654d0acf4db2bff91520ce33cfaaf576e86b4f0af
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000203747AAF60>>
+[ 2026-07-10 19:30:33,758 ] botocore.hooks - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x0000020328230540>
+[ 2026-07-10 19:30:33,763 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://my-mlops-project01.s3.amazonaws.com/?prefix=model.pkl&encoding-type=url, headers={'User-Agent': b'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,D,C,Z cfg/retry-mode#legacy Botocore/1.43.41 Resource', 'X-Amz-Date': b'20260710T140033Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA4RODFJFZ67V2ITUK/20260710/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=28882a450a34e676ba97da6654d0acf4db2bff91520ce33cfaaf576e86b4f0af', 'amz-sdk-invocation-id': b'5190a558-a3fb-4ed4-92c0-03d99fb2394f', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-10 19:30:33,763 ] botocore.httpsession - DEBUG - Certificate path: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-10 19:30:33,763 ] urllib3.connectionpool - DEBUG - Resetting dropped connection: my-mlops-project01.s3.amazonaws.com
+[ 2026-07-10 19:30:34,905 ] urllib3.connectionpool - DEBUG - https://my-mlops-project01.s3.amazonaws.com:443 "GET /?prefix=model.pkl&encoding-type=url HTTP/1.1" 200 None
+[ 2026-07-10 19:30:34,909 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function _handle_200_error at 0x0000020328230AE0>
+[ 2026-07-10 19:30:34,909 ] botocore.hooks - DEBUG - Event before-parse.s3.ListObjects: calling handler <function handle_expires_header at 0x0000020328230900>
+[ 2026-07-10 19:30:34,909 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'Wh2EsMP9mwXok6d0EY7gK5+1MCresQNUSRQO+vo3R5humnC+XqIykK8M5PbIxmUMnh8dRr4OQJc=', 'x-amz-request-id': 'WJ768ZTJ28D5WFSR', 'Date': 'Fri, 10 Jul 2026 14:00:36 GMT', 'x-amz-bucket-region': 'us-east-1', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Server': 'AmazonS3'}
+[ 2026-07-10 19:30:34,909 ] botocore.parsers - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>my-mlops-project01</Name><Prefix>model.pkl</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>model.pkl</Key><LastModified>2026-07-09T19:08:52.000Z</LastModified><ETag>&quot;34b8ad8dc2f203598c5d744e97412b1b-2&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>COMPOSITE</ChecksumType><Size>9665501</Size><Owner><ID>76edd3ab0bb814daa9dfdb954a3e83584fd10e715e232b885fbbdc7224833e74</ID></Owner><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>'
+[ 2026-07-10 19:30:34,910 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <function _update_status_code at 0x0000020328230CC0>
+[ 2026-07-10 19:30:34,910 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x00000203747EBCB0>
+[ 2026-07-10 19:30:34,910 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-10 19:30:34,910 ] botocore.hooks - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:34,910 ] botocore.hooks - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x00000203282076A0>
+[ 2026-07-10 19:30:34,910 ] boto3.resources.factory - DEBUG - Loading s3:ObjectSummary
+[ 2026-07-10 19:30:34,910 ] boto3.resources.model - DEBUG - Renaming ObjectSummary attribute key
+[ 2026-07-10 19:30:34,910 ] botocore.hooks - DEBUG - Event creating-resource-class.s3.ObjectSummary: calling handler <function lazy_call.<locals>._handler at 0x0000020373C3D9E0>
+[ 2026-07-10 19:30:34,911 ] root - INFO - Exited the get_file_object method of SimpleStorageService class
+[ 2026-07-10 19:30:34,921 ] boto3.resources.action - DEBUG - Calling s3:get_object with {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl'}
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x0000020328206200>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x0000020328206160>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000203282305E0>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x0000020328205F80>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function _handle_request_validation_mode_member at 0x0000020328230D60>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000203282307C0>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:34,921 ] botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'my-mlops-project01', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'model.pkl', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'DisableS3ExpressSessionAuth': False}
+[ 2026-07-10 19:30:34,921 ] botocore.regions - DEBUG - Endpoint provider result: https://my-mlops-project01.s3.amazonaws.com
+[ 2026-07-10 19:30:34,921 ] botocore.regions - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+[ 2026-07-10 19:30:34,921 ] botocore.regions - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x0000020328206520>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x0000020328205260>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x0000020328207A60>
+[ 2026-07-10 19:30:34,921 ] botocore.endpoint - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/model.pkl', 'query_string': {}, 'method': 'GET', 'headers': {'x-amz-checksum-mode': 'ENABLED', 'User-Agent': 'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,Z,D cfg/retry-mode#legacy Botocore/1.43.41 Resource'}, 'body': b'', 'auth_path': '/my-mlops-project01/model.pkl', 'url': 'https://my-mlops-project01.s3.amazonaws.com/model.pkl', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000203747AA390>, 'has_streaming_input': False, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'my-mlops-project01', 'params': {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl', 'ChecksumMode': 'ENABLED'}}, 'input_params': {'Bucket': 'my-mlops-project01', 'Key': 'model.pkl'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}, 'checksum': {'response_algorithms': ['crc32', 'sha1', 'sha256', 'sha512']}}}
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000203747A9FD0>>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000020373C57800>>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x0000020328205C60>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x0000020328230720>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x0000020328230E00>
+[ 2026-07-10 19:30:34,921 ] botocore.hooks - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000203747EAE10>>
+[ 2026-07-10 19:30:34,923 ] botocore.auth - DEBUG - Calculating signature using v4 auth.
+[ 2026-07-10 19:30:34,923 ] botocore.auth - DEBUG - CanonicalRequest:
+GET
+/model.pkl
+
+host:my-mlops-project01.s3.amazonaws.com
+x-amz-checksum-mode:ENABLED
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260710T140034Z
+
+host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[ 2026-07-10 19:30:34,923 ] botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260710T140034Z
+20260710/us-east-1/s3/aws4_request
+08c38330287a1f8f7ffc756e4371afa58c7eace1e26a39cd0ed576fd08365359
+[ 2026-07-10 19:30:34,923 ] botocore.auth - DEBUG - Signature:
+1870658547ac488356418eb784827dae24bca6b4cc8b95a1be44af7b9e42bcb2
+[ 2026-07-10 19:30:34,923 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x00000203747AAF60>>
+[ 2026-07-10 19:30:34,923 ] botocore.hooks - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x0000020328230540>
+[ 2026-07-10 19:30:34,923 ] botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://my-mlops-project01.s3.amazonaws.com/model.pkl, headers={'x-amz-checksum-mode': b'ENABLED', 'User-Agent': b'Boto3/1.43.41 md/Botocore#1.43.41 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.12.7 md/pyimpl#CPython m/b,e,Z,D cfg/retry-mode#legacy Botocore/1.43.41 Resource', 'X-Amz-Date': b'20260710T140034Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA4RODFJFZ67V2ITUK/20260710/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-checksum-mode;x-amz-content-sha256;x-amz-date, Signature=1870658547ac488356418eb784827dae24bca6b4cc8b95a1be44af7b9e42bcb2', 'amz-sdk-invocation-id': b'ac0e3c30-9456-45bf-b773-6321d16a7d7c', 'amz-sdk-request': b'attempt=1'}>
+[ 2026-07-10 19:30:34,923 ] botocore.httpsession - DEBUG - Certificate path: E:\Code\Work\MLOPS\Vehicle-Insurance\venv1\Lib\site-packages\certifi\cacert.pem
+[ 2026-07-10 19:30:35,341 ] urllib3.connectionpool - DEBUG - https://my-mlops-project01.s3.amazonaws.com:443 "GET /model.pkl HTTP/1.1" 200 9665501
+[ 2026-07-10 19:30:35,341 ] botocore.httpchecksum - DEBUG - Skipping checksum validation. Response did not contain one of the following algorithms: ['crc32', 'sha1', 'sha256', 'sha512'].
+[ 2026-07-10 19:30:35,341 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function _handle_200_error at 0x0000020328230AE0>
+[ 2026-07-10 19:30:35,341 ] botocore.hooks - DEBUG - Event before-parse.s3.GetObject: calling handler <function handle_expires_header at 0x0000020328230900>
+[ 2026-07-10 19:30:35,341 ] botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'R2k+D6gd3cwl31+7JtY75379dmzb3K1+fGS4cAAqRQok3nIJ2EvkQBYwCp4dQ4Meuy+GET7IF+A=', 'x-amz-request-id': 'WJ7AVY6RFR7JNZ7G', 'Date': 'Fri, 10 Jul 2026 14:00:36 GMT', 'Last-Modified': 'Thu, 09 Jul 2026 19:08:52 GMT', 'ETag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'x-amz-checksum-crc32': 'RkjX/w==-2', 'x-amz-checksum-type': 'COMPOSITE', 'x-amz-server-side-encryption': 'AES256', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Content-Length': '9665501', 'Server': 'AmazonS3'}
+[ 2026-07-10 19:30:35,342 ] botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x000002037661FD00>
+[ 2026-07-10 19:30:35,342 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <function _update_status_code at 0x0000020328230CC0>
+[ 2026-07-10 19:30:35,342 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000203747EBCB0>
+[ 2026-07-10 19:30:35,342 ] botocore.retryhandler - DEBUG - No retry needed.
+[ 2026-07-10 19:30:35,343 ] botocore.hooks - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000020373A185C0>>
+[ 2026-07-10 19:30:35,344 ] boto3.resources.action - DEBUG - Response: {'ResponseMetadata': {'RequestId': 'WJ7AVY6RFR7JNZ7G', 'HostId': 'R2k+D6gd3cwl31+7JtY75379dmzb3K1+fGS4cAAqRQok3nIJ2EvkQBYwCp4dQ4Meuy+GET7IF+A=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'R2k+D6gd3cwl31+7JtY75379dmzb3K1+fGS4cAAqRQok3nIJ2EvkQBYwCp4dQ4Meuy+GET7IF+A=', 'x-amz-request-id': 'WJ7AVY6RFR7JNZ7G', 'date': 'Fri, 10 Jul 2026 14:00:36 GMT', 'last-modified': 'Thu, 09 Jul 2026 19:08:52 GMT', 'etag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'x-amz-checksum-crc32': 'RkjX/w==-2', 'x-amz-checksum-type': 'COMPOSITE', 'x-amz-server-side-encryption': 'AES256', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'content-length': '9665501', 'server': 'AmazonS3'}, 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2026, 7, 9, 19, 8, 52, tzinfo=tzutc()), 'ContentLength': 9665501, 'ETag': '"34b8ad8dc2f203598c5d744e97412b1b-2"', 'ChecksumCRC32': 'RkjX/w==-2', 'ChecksumType': 'COMPOSITE', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}, 'Body': <botocore.response.StreamingBody object at 0x000002037661FD00>}
+[ 2026-07-10 19:30:38,427 ] root - INFO - Production model loaded from S3 bucket.
+[ 2026-07-10 19:30:38,429 ] root - INFO - Starting prediction process.
+[ 2026-07-10 19:30:38,434 ] root - INFO - Using the trained model to get predictions
