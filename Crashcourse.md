@@ -10,6 +10,16 @@ TOML is becoming the standard for Python packaging metadata.
 > It centralizes metadata about the project: project name, version, dependencies, authors, etc.
 > It supports various build systems (like setuptools, poetry, etc.).
 
+**Role of pyproject.toml**
+1. Stores project metadata
+  - Name, version, author, description, etc.
+2. Configures build tools
+  - Tells tools like setuptools how to package your project.
+3. Manages dependencies
+  - Specifies which libraries your project needs (here, from requirements.txt).
+4. Provides a standard configuration file
+  - Instead of having many separate config files, modern Python projects keep build and tool settings in pyproject.toml.
+
 3. Explaining sections of pyproject.toml:
 
 [project]: Defines the basic project information (name, version, description, authors).
